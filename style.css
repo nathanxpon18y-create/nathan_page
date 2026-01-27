@@ -1,0 +1,102 @@
+body {
+   /* =========================
+   RESET BÁSICO
+========================= */
+* {
+    box-sizing: border-box;
+}
+
+/* =========================
+   BODY
+========================= */
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+    padding: 20px;
+    margin: 0;
+}
+
+/* =========================
+   TÍTULOS
+========================= */
+h1, h2 {
+    text-align: center;
+}
+
+/* =========================
+   FORMULÁRIO
+========================= */
+.formulario {
+    background: white;
+    padding: 15px;
+    max-width: 600px;
+    margin: auto;
+    border-radius: 8px;
+}
+
+.formulario input,
+.formulario select,
+.formulario button {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+/* =========================
+   BLOCO DE NOTAS
+========================= */
+.bloco-notas {
+    background: white;
+    border: 1px solid #ccc;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+    min-height: 300px;
+    font-family: "Courier New", monospace;
+}
+
+/* =========================
+   BLOCO DE CADA ATENDIMENTO
+========================= */
+.atendimento {
+    padding: 6px;
+    margin-bottom: 6px;
+    border-left: 6px solid;
+    background: #f9f9f9;
+    font-size: 14px;
+}
+
+/* =========================
+   CORES POR TIPO / STATUS
+========================= */
+.atendimento.Retido {
+    border-left-color: green;
+    background: #e8f5e9;
+}
+
+.atendimento.Cancelado {
+    border-left-color: red;
+    background: #fdecea;
+}
+
+.atendimento.Suporte {
+    border-left-color: orange;
+    background: #fff8e1;
+}
+
+.atendimento.Venda {
+    border-left-color: blue;
+    background: #e3f2fd;
+}
+
+
+}
+
+/* =========================
+   RODAPÉ
+========================= */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #555;
+}

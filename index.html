@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro de Atendimentos</title>
+
+    <!-- CONEXÃO COM O CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Registro de Atendimentos</h1>
+
+    <!-- FORMULÁRIO -->
+    <div class="formulario">
+
+        <input type="text" id="cliente" placeholder="Nome do cliente">
+
+        <input type="text" id="contrato" placeholder="Contrato (000/000)">
+
+        <input type="date" id="data">
+
+        <input type="time" id="horario">
+
+        <select id="tipo">
+           <option>Venda</option>
+    <option>Suporte</option>
+    <option>Retido</option>
+    <option>Cancelado</option>
+        </select>
+
+        <select id="status">
+            <option>Retido</option>
+            <option>Cancelado</option>
+            <option>Venda Controle</option>
+            <option>Venda Pós Pago</option>
+        </select>
+
+        <input type="text" id="obs" placeholder="Observação rápida">
+
+        <button onclick="salvarAtendimento()">Salvar Atendimento</button>
+
+    </div>
+
+    <!-- BLOCO DE NOTAS -->
+    <h2>Bloco de Anotações</h2>
+
+    <div id="blocoNotas" class="bloco-notas"></div>
+
+    <!-- RODAPÉ -->
+    <footer>
+        Desenvolvido por Nathan Rocha
+    </footer>
+
+    <!-- CONEXÃO COM O JS -->
+    <script src="script.js"></script>
+
+</body>
+</html>
